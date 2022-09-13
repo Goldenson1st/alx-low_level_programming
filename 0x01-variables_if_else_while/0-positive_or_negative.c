@@ -5,7 +5,6 @@
 #include <stdio.h>
 
 /**
- *
  * main - Entry point
  *
  * Description : a programm will assign a random number to the variable

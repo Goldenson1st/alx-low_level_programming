@@ -18,7 +18,7 @@
 int main(void)
 {
 	int n;
-	int last_num_of_n
+	int last_num_of_n;
 
 		srand(time(0));
 	n = rand() - RAND_MAX / 2;

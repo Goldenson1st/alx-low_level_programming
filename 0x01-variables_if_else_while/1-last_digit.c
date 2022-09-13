@@ -10,6 +10,7 @@
  *
  * Description : prints the last digit of the number stored in the variable n
  *
+ *
  * Return: Always 0 (Success)
  *
  */
@@ -19,7 +20,7 @@ int main(void)
 	int n;
 	int last_num_of_n
 
-	srand(time(0));
+		srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	last_num_of_n = n % 10;
 	if (last_num_of_n > 5)

@@ -17,7 +17,7 @@ int main(void)
 
 	while (alpha <= 'z')
 	{
-		if (alpha == e || alpha ==q)
+		if (alpha == e || alpha == q)
 		{
 			alpha++;
 			continue;

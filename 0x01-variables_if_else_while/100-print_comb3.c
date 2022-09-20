@@ -14,7 +14,7 @@ int main(void)
 	int i;
 	int single_digit;
 	int double_digit;
-	
+
 	for (i = 0; i < 100; i++)
 	{
 	single_digit = i % 10;

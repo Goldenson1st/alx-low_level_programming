@@ -2,19 +2,19 @@
 
 /**
  * main - main block
- * 
+ *
  * Description: Print all possible commbinations of two digits.
  *
  * Return: 0
  *
  */
 
- int main(void)
- {
- 	int i;
+int main(void)
+{
+	int i;
 	int single_digit;
 	int double_digit;
-
+	
 	for (i = 0; i < 100; i++)
 	{
 	single_digit = i % 10;

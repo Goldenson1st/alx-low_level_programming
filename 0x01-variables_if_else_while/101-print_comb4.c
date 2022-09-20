@@ -8,9 +8,9 @@
  * Return: 0
  */
 
- int main(void)
- {
- 	int i, j, k, l;
+int main(void)
+{
+	int i, j, k, l;
 
 	i = 0;
 	while (i < 1000)

@@ -25,4 +25,4 @@
 		putchar(s[counter]);
 	}
 	putchar('\n');
-
+}

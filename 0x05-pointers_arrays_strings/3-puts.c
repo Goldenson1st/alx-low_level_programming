@@ -13,7 +13,7 @@ void _puts(char *str)
 	counter = 0;
 	while (*(str + counter) != '\0')
 	{
-		putchar(*(str + counter) != '\0')
+		putchar(*(str + counter) != '\0');
 		counter++;
 	}
 	putchar('\n');

@@ -3,7 +3,7 @@
 /**
  * main - Entry
  *
- * Descriptin: reset_to_98
+ * Description: reset_to_98
  *
  * @n: - pointer to print
  */

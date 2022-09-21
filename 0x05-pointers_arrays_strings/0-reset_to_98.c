@@ -1,7 +1,10 @@
 #include "main.h"
 
 /**
- *main - reset_to_98
+ * main - Entry
+ *
+ * Descriptin: reset_to_98
+ *
  * @n: - pointer to print
  */
 

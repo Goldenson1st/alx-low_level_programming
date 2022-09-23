@@ -19,9 +19,10 @@ int _isalpha(int c)
 	while (alpha_upper <= 'Z')
 	{
 		alpha_lower = 'a';
+		/**alpha_lower = 'a'; **/
 		while (alpha_lower <= 'z')
 		{
-				if (c == alpha_upper || c == alpha_lower)
+		if (c == alpha_upper || c == alpha_lower)
 				{
 					bool = 1;
 				}

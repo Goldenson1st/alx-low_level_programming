@@ -22,7 +22,7 @@ int _isalpha(int c)
 		/**alpha_lower = 'a'; **/
 		while (alpha_lower <= 'z')
 		{
-		if (c == alpha_upper || c == alpha_lower)
+		if (c == "alpha_upper" || c == "alpha_lower")
 				{
 					bool = 1;
 				}

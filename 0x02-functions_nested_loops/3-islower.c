@@ -17,12 +17,12 @@ int _slower(int c)
 	while (alpha <= 'z')
 	{
 
-		if (alpha == c)
-		{
+	if (alpha == c)
+	{
 
-			bool = 1;
+		bool = 1;
 
-		}
+	}
 		alpha++;
 
 	}

@@ -8,7 +8,7 @@
  * Return: 1 if is lowercase or 0 if is uppercase
  */
 
-int _slower(int c)
+int _islower(int c)
 {
 	char alpha;
 	int bool = 0;
@@ -17,12 +17,12 @@ int _slower(int c)
 	while (alpha <= 'z')
 	{
 
-	if (alpha == c)
-	{
+		if (alpha == c)
+		{
 
-		bool = 1;
+			bool = 1;
 
-	}
+		}
 		alpha++;
 
 	}

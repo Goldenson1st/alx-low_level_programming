@@ -1,17 +1,24 @@
-#include "main.h"
-
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
-* swap_int - swaps the values of two integers.
-* and updates the value it points to to 98
-* @a: int
-* @b: int
-*/
-
-void swap_int(int *a, int *b);
+ *main - generates random valid passwords
+ *Return: 0 (on success).
+ *
+ */
+int main(void)
 {
-	int temp;
+	int pass, sum;
 
-	temp = *a;
-		*a = *b;
-		*b = temp;
+	srand(time(NULL));
+	sum = 0;
+	while (sum <= 2645)
+	{
+		pass = (rand() % 128);
+		sum += pass;
+		printf("%c", pass);
+	}
+	printf("%c", 2772 - sum);
+
+	return (0);
 }
